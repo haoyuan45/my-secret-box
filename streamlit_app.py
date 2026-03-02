@@ -36,7 +36,7 @@ with st.form("my_form", clear_on_submit=True):
             "image_url": final_url,
             "user_ip": user_ip
         }).execute()
-        st.success(f"送出成功！(已紀錄來源：{user_ip})")
+        st.success(f"送出成功！
 
 # 管理員登入
 if st.sidebar.text_input("管理員密碼", type="password") == ADMIN_PASS:
